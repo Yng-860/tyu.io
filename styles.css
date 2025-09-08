@@ -1,0 +1,73 @@
+
+    #glowny {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; 
+    }
+
+    #jeden {
+      border: 3px solid black;
+      padding: 20px; 
+      border-radius: 200px;
+      background-color: black;
+    }
+
+    #dwa {
+      border: 3px solid orange;
+      padding: 20px; 
+      border-radius: 200px;
+      background-color: orange;
+    }
+
+    #trzy {
+      border: 3px solid red;
+      padding: 80px; 
+      border-radius: 200px;
+      background-color: red;
+    }
+    p{
+    align-items: center;
+    text-align: center;
+    font-size: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkblue;
+}
+#Project::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 100%;
+    border-radius: 30em;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #0fd850 0%, #f9f047 100%);
+    transition: width 0.5s ease;
+    display: block;
+    z-index: -1;
+}
+
+#Project:hover::before {
+    width: 100%;
+}
+
+#Project:hover {
+    transform: scale(1.03);
+}
+
+#Project {
+    color: black;
+    padding: 25px 28px;
+    border-radius: 30em;
+    font-size: 34px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+    box-shadow: 6px 6px 12px #afb4ac,
+        -6px -6px 12px #b6b8b4;
+}
