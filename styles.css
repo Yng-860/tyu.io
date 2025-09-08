@@ -33,7 +33,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: darkblue;
 }
-.Project {
+a {
     display: inline-block;
     background-color: #4fa51e;
     color: white;
@@ -48,3 +48,4 @@
     top: 10px; 
     left: 10px; 
 }
+
